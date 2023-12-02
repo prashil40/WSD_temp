@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>My Game Library</h1>
+    <ul>
+        {% for game in data %}
+        <li>{{ game.name }} - {{game.rating}}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

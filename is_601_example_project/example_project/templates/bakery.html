@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Bakery</h1>
+    <ul>
+        {% for baked_good in baked_goods %}
+        <li>{{ baked_good.name }} - {{baked_good.price}}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

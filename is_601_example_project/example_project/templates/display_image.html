@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block title %}Display Image{% endblock %}
+
+{% block content %}
+{% load static %}
+<img src="{% static 'pizza.jpg' %}" alt="pizza">
+{% endblock %}
